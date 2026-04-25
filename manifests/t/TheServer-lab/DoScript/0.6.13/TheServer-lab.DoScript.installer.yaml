@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.12.8.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TheServer-lab.DoScript
+PackageVersion: 0.6.13
+InstallerType: nullsoft
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/TheServer-lab/DoScript/releases/download/latest-release/DoScriptSetup.exe
+  InstallerSha256: 9e523d4d2df624c3aca8d1c43f2bfa1e2b182f8b519f64d393117bb55ab8a366
+ManifestType: installer
+ManifestVersion: 1.12.0
