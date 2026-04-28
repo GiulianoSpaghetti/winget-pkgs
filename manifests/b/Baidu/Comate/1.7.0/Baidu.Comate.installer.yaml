@@ -1,15 +1,15 @@
 # Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
-PackageIdentifier: Alibaba.Lingma
-PackageVersion: 1.106.3
+PackageIdentifier: Baidu.Comate
+PackageVersion: 1.7.0
 InstallerType: inno
 Scope: user
 InstallerSwitches:
   Custom: /mergetasks=!runcode
 UpgradeBehavior: install
 Protocols:
-- lingma
+- comate
 FileExtensions:
 - ascx
 - asp
@@ -144,11 +144,11 @@ FileExtensions:
 - yaml
 - yml
 - zsh
-ProductCode: '{33B7C9E1-F1A4-4505-8E86-6A45DEE8AC9A}_is1'
+ProductCode: '{E1BCCBB0-0C31-40C1-AB8D-2AE2E6C3C2F2}}_is1'
 ReleaseDate: 2026-04-28
 Installers:
 - Architecture: x64
-  InstallerUrl: https://lingma-ide.oss-rg-china-mainland.aliyuncs.com/release/0.11.0/LingmaUserSetup-x64.exe
-  InstallerSha256: 7EFABEB0F6C6FAEE1861ED321114C34577881982441A6A57E6F32BA2258022FB
+  InstallerUrl: https://comate-ide.cdn.bcebos.com/download/stable/5bbfb09cb6e551e512fe931a8150e8137f77d9ad-250845491/Comate-win32-x64-user-setup.exe
+  InstallerSha256: 44185751CCBCB5D9D885E9BF8349036D5921643C7C81F9590A7B897D994ED3AD
 ManifestType: installer
 ManifestVersion: 1.12.0
